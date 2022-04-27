@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://www.skyve.org/xml/document" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Office" xsi:schemaLocation="http://www.skyve.org/xml/document ../../../schemas/document.xsd">
+    <persistent name="FIR_Office"/>
+    <singularAlias>office</singularAlias>
+    <pluralAlias>Offices</pluralAlias>
+    <iconStyleClass>fa fa-building</iconStyleClass>
+    <bizKey expression="office - {suburb}"/>
+    <attributes>
+        <text name="buildingName">
+            <displayName>buildingName</displayName>
+            <length>200</length>
+        </text>
+        <text name="streetAddress">
+            <displayName>streetAddress</displayName>
+            <length>200</length>
+        </text>
+        <text required="true" name="suburb">
+            <displayName>suburb</displayName>
+            <length>200</length>
+        </text>
+        <text name="postCode">
+            <displayName>postCode</displayName>
+            <length>200</length>
+        </text>
+        <text name="phone">
+            <displayName>phone</displayName>
+            <description><![CDATA[Enter a phone number]]></description>
+            <length>12</length>
+        </text>
+        <text name="levelUnit">
+            <displayName>levelUnit</displayName>
+            <length>200</length>
+        </text>
+    </attributes>
+</document>
